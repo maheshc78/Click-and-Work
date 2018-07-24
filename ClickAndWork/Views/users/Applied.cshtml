@@ -1,0 +1,42 @@
+﻿@model ClickAndWork.ViewModels.WorkerHirer
+
+@{
+    ViewBag.Title = "Applied";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Jobs Applied</h2>
+
+<div style="margin-left:1075px;font-size:25px">
+    @Html.ActionLink("Back", "WorkerPage")
+</div>
+<table class="table">
+    <tr>
+        <th>
+            @Html.Label("Worker Name")
+        </th>
+        <th>
+            @Html.Label("Job Name")
+        </th>
+        <th>
+            @Html.Label("Job Title")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model.applies) {
+    <tr>
+        <td>
+            @item.workername
+        </td>
+        <td>
+            @item.jobname
+        </td>
+        <td>
+            @item.jobtitle
+        </td>
+       
+    </tr>
+}
+
+</table>

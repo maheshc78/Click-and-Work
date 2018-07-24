@@ -1,0 +1,109 @@
+﻿@model ClickAndWork.Models.Profile
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<p>
+    @Html.ActionLink("Back", "WorkerPage")
+</p>
+<h2>Profile</h2>
+@using (Html.BeginForm("CreateProfile", "users", FormMethod.Post))
+{ 
+<table class="table">
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.firstname)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.firstname)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.lastname)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.lastname)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.dob)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.dob)<b>(mm/dd/yyyy)</b>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.mailid)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.mailid)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.phone)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.phone)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.technologies)
+        </th>
+        <th>
+            @Html.TextAreaFor(model => model.technologies)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.experience)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.experience)<b>(Years)</b>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.previouscompany)
+        </th>
+        <th>
+            @Html.EditorFor(model => model.previouscompany)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.hobbies)
+        </th>
+        <th>
+            @Html.TextAreaFor(model => model.hobbies)
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.LabelFor(model => model.Acheivements)
+        </th>
+        <th>
+            @Html.TextAreaFor(model => model.Acheivements)
+        </th>
+    </tr>
+    <tr>
+        <td>
+
+        </td>
+        <td >
+        <input type="submit" value="Submitt"/>
+            </td>
+    </tr>
+</table>
+   }
+<br/>
+@if (Session["messageee"] != null)
+{
+    <b style="font-size:30px">@Session["messageee"]</b>
+}
+
+

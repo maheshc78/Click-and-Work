@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="usersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="hirers">
+    <Key>
+      <PropertyRef Name="hfname" />
+    </Key>
+    <Property Name="hfname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="hlname" Type="varchar" MaxLength="20" />
+    <Property Name="hphone" Type="varchar" MaxLength="20" />
+    <Property Name="hmailid" Type="varchar" MaxLength="20" />
+    <Property Name="hpwd" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="mailid" />
+    </Key>
+    <Property Name="fname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="mailid" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="pwd" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="usersModelStoreContainer">
+    <EntitySet Name="hirers" EntityType="Self.hirers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

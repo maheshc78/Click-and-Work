@@ -1,0 +1,51 @@
+﻿@model ClickAndWork.Models.hirer
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>hirer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.hlname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hlname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hphone)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hphone)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hmailid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hmailid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.hpwd)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.hpwd)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.hfname }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

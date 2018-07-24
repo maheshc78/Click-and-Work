@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="usersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="hirers">
+          <Key>
+            <PropertyRef Name="hfname" />
+          </Key>
+          <Property Name="hfname" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="hlname" Type="varchar" MaxLength="20" />
+          <Property Name="hphone" Type="varchar" MaxLength="20" />
+          <Property Name="hmailid" Type="varchar" MaxLength="20" />
+          <Property Name="hpwd" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="Jobapply">
+          <Key>
+            <PropertyRef Name="jobid" />
+          </Key>
+          <Property Name="workername" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="jobname" Type="varchar" MaxLength="20" />
+          <Property Name="jobtitle" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="jobid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Jobpost">
+          <Key>
+            <PropertyRef Name="jobtitle" />
+          </Key>
+          <Property Name="jobtitle" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="publishby" Type="varchar" MaxLength="20" />
+          <Property Name="jobdesp" Type="varchar" MaxLength="20" />
+          <Property Name="exp" Type="varchar" MaxLength="20" />
+          <Property Name="tech" Type="varchar" MaxLength="20" />
+          <Property Name="date" Type="varchar" MaxLength="10" />
+        </EntityType>
+        <EntityType Name="Profile">
+          <Key>
+            <PropertyRef Name="firstname" />
+          </Key>
+          <Property Name="firstname" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="lastname" Type="varchar" MaxLength="20" />
+          <Property Name="dob" Type="varchar" MaxLength="10" />
+          <Property Name="mailid" Type="varchar" MaxLength="20" />
+          <Property Name="phone" Type="int" />
+          <Property Name="technologies" Type="varchar" MaxLength="150" />
+          <Property Name="experience" Type="varchar" MaxLength="20" />
+          <Property Name="previouscompany" Type="varchar" MaxLength="20" />
+          <Property Name="hobbies" Type="varchar" MaxLength="20" />
+          <Property Name="Acheivements" Type="varchar" MaxLength="20" />
+        </EntityType>
+        <EntityType Name="users">
+          <Key>
+            <PropertyRef Name="mailid" />
+          </Key>
+          <Property Name="fname" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="lname" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="phone" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="mailid" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="pwd" Type="varchar" MaxLength="20" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="usersModelStoreContainer">
+          <EntitySet Name="hirers" EntityType="Self.hirers" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Jobapply" EntityType="Self.Jobapply" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Jobpost" EntityType="Self.Jobpost" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="Profile" EntityType="Self.Profile" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="usersModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="hirer">
+          <Key>
+            <PropertyRef Name="hfname" />
+          </Key>
+          <Property Name="hfname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="hlname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="hphone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="hmailid" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="hpwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="user">
+          <Key>
+            <PropertyRef Name="mailid" />
+          </Key>
+          <Property Name="fname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="lname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="phone" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="mailid" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="pwd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+        </EntityType>
+        <EntityContainer Name="modelEntities1" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="hirers" EntityType="Self.hirer" />
+          <EntitySet Name="users" EntityType="Self.user" />
+          <EntitySet Name="Jobposts" EntityType="usersModel.Jobpost" />
+          <EntitySet Name="Profiles" EntityType="usersModel.Profile" />
+          <EntitySet Name="Jobapplies" EntityType="usersModel.Jobapply" />
+        </EntityContainer>
+        <EntityType Name="Jobpost">
+          <Key>
+            <PropertyRef Name="jobtitle" />
+          </Key>
+          <Property Name="jobtitle" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="publishby" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="jobdesp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="exp" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="tech" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="date" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Profile">
+          <Key>
+            <PropertyRef Name="firstname" />
+          </Key>
+          <Property Name="firstname" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="lastname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="dob" Type="String" MaxLength="10" Unicode="false" FixedLength="false" />
+          <Property Name="mailid" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="phone" Type="Int32" />
+          <Property Name="technologies" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="experience" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="previouscompany" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="hobbies" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Acheivements" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="Jobapply">
+          <Key>
+            <PropertyRef Name="jobid" />
+          </Key>
+          <Property Name="workername" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="jobname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="jobtitle" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="jobid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="usersModelStoreContainer" CdmEntityContainer="modelEntities1">
+          <EntitySetMapping Name="hirers">
+            <EntityTypeMapping TypeName="usersModel.hirer">
+              <MappingFragment StoreEntitySet="hirers">
+                <ScalarProperty Name="hfname" ColumnName="hfname" />
+                <ScalarProperty Name="hlname" ColumnName="hlname" />
+                <ScalarProperty Name="hphone" ColumnName="hphone" />
+                <ScalarProperty Name="hmailid" ColumnName="hmailid" />
+                <ScalarProperty Name="hpwd" ColumnName="hpwd" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="users">
+            <EntityTypeMapping TypeName="usersModel.user">
+              <MappingFragment StoreEntitySet="users">
+                <ScalarProperty Name="fname" ColumnName="fname" />
+                <ScalarProperty Name="lname" ColumnName="lname" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="mailid" ColumnName="mailid" />
+                <ScalarProperty Name="pwd" ColumnName="pwd" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Jobposts">
+            <EntityTypeMapping TypeName="usersModel.Jobpost">
+              <MappingFragment StoreEntitySet="Jobpost">
+                <ScalarProperty Name="date" ColumnName="date" />
+                <ScalarProperty Name="tech" ColumnName="tech" />
+                <ScalarProperty Name="exp" ColumnName="exp" />
+                <ScalarProperty Name="jobdesp" ColumnName="jobdesp" />
+                <ScalarProperty Name="publishby" ColumnName="publishby" />
+                <ScalarProperty Name="jobtitle" ColumnName="jobtitle" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Profiles">
+            <EntityTypeMapping TypeName="usersModel.Profile">
+              <MappingFragment StoreEntitySet="Profile">
+                <ScalarProperty Name="Acheivements" ColumnName="Acheivements" />
+                <ScalarProperty Name="hobbies" ColumnName="hobbies" />
+                <ScalarProperty Name="previouscompany" ColumnName="previouscompany" />
+                <ScalarProperty Name="experience" ColumnName="experience" />
+                <ScalarProperty Name="technologies" ColumnName="technologies" />
+                <ScalarProperty Name="phone" ColumnName="phone" />
+                <ScalarProperty Name="mailid" ColumnName="mailid" />
+                <ScalarProperty Name="dob" ColumnName="dob" />
+                <ScalarProperty Name="lastname" ColumnName="lastname" />
+                <ScalarProperty Name="firstname" ColumnName="firstname" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Jobapplies">
+            <EntityTypeMapping TypeName="usersModel.Jobapply">
+              <MappingFragment StoreEntitySet="Jobapply">
+                <ScalarProperty Name="jobid" ColumnName="jobid" />
+                <ScalarProperty Name="jobtitle" ColumnName="jobtitle" />
+                <ScalarProperty Name="jobname" ColumnName="jobname" />
+                <ScalarProperty Name="workername" ColumnName="workername" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

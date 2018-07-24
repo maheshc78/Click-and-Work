@@ -1,0 +1,98 @@
+﻿@model ClickAndWork.ViewModels.WorkerHirer
+
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Search</h2>
+
+<p>
+    @Html.ActionLink("Back", "HirerPage")
+</p>
+
+<p>
+    @using (Html.BeginForm("Search", "hirers", FormMethod.Get))
+    {
+        <b>Search By:</b>
+        @Html.RadioButton("searchBy", "Experience",true)<text>Experience</text>
+        @Html.RadioButton("searchBy", "technologies")<text>Technologies</text>
+        <br />
+        @Html.TextBox("search") <input type="submit" value="Search" />
+    }
+</p>
+<div style="font-size:larger">
+    <table class="table" border="1">
+        <tr>
+            <th>
+                @Html.Label("First name")
+            </th>
+            <th>
+                @Html.Label("Last name")
+            </th>
+            <th>
+                @Html.Label("DOB")
+            </th>
+            <th>
+                @Html.Label("MailID")
+            </th>
+            <th>
+                @Html.Label("Phone")
+            </th>
+            <th>
+                @Html.Label("Technologies")
+            </th>
+            <th>
+                @Html.Label("Experience")
+            </th>
+            <th>
+                @Html.Label("Previous Company")
+            </th>
+            <th>
+                @Html.Label("Hobbies")
+            </th>
+            <th>
+                @Html.Label("Acheivements")
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.profiles)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.firstname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.lastname)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.dob)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.mailid)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.phone)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.technologies)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.experience)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.previouscompany)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.hobbies)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Acheivements)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>

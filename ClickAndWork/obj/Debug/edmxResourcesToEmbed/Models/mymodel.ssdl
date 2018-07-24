@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="usersModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="hirers">
+    <Key>
+      <PropertyRef Name="hfname" />
+    </Key>
+    <Property Name="hfname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="hlname" Type="varchar" MaxLength="20" />
+    <Property Name="hphone" Type="varchar" MaxLength="20" />
+    <Property Name="hmailid" Type="varchar" MaxLength="20" />
+    <Property Name="hpwd" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="Jobapply">
+    <Key>
+      <PropertyRef Name="jobid" />
+    </Key>
+    <Property Name="workername" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="jobname" Type="varchar" MaxLength="20" />
+    <Property Name="jobtitle" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="jobid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Jobpost">
+    <Key>
+      <PropertyRef Name="jobtitle" />
+    </Key>
+    <Property Name="jobtitle" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="publishby" Type="varchar" MaxLength="20" />
+    <Property Name="jobdesp" Type="varchar" MaxLength="20" />
+    <Property Name="exp" Type="varchar" MaxLength="20" />
+    <Property Name="tech" Type="varchar" MaxLength="20" />
+    <Property Name="date" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="firstname" />
+    </Key>
+    <Property Name="firstname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="lastname" Type="varchar" MaxLength="20" />
+    <Property Name="dob" Type="varchar" MaxLength="10" />
+    <Property Name="mailid" Type="varchar" MaxLength="20" />
+    <Property Name="phone" Type="int" />
+    <Property Name="technologies" Type="varchar" MaxLength="150" />
+    <Property Name="experience" Type="varchar" MaxLength="20" />
+    <Property Name="previouscompany" Type="varchar" MaxLength="20" />
+    <Property Name="hobbies" Type="varchar" MaxLength="20" />
+    <Property Name="Acheivements" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="users">
+    <Key>
+      <PropertyRef Name="mailid" />
+    </Key>
+    <Property Name="fname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="lname" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="phone" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="mailid" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="pwd" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="usersModelStoreContainer">
+    <EntitySet Name="hirers" EntityType="Self.hirers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Jobapply" EntityType="Self.Jobapply" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Jobpost" EntityType="Self.Jobpost" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Profile" EntityType="Self.Profile" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="users" EntityType="Self.users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

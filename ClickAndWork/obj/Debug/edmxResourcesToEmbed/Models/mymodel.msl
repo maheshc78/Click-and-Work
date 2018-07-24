@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="usersModelStoreContainer" CdmEntityContainer="modelEntities1">
+    <EntitySetMapping Name="hirers">
+      <EntityTypeMapping TypeName="usersModel.hirer">
+        <MappingFragment StoreEntitySet="hirers">
+          <ScalarProperty Name="hfname" ColumnName="hfname" />
+          <ScalarProperty Name="hlname" ColumnName="hlname" />
+          <ScalarProperty Name="hphone" ColumnName="hphone" />
+          <ScalarProperty Name="hmailid" ColumnName="hmailid" />
+          <ScalarProperty Name="hpwd" ColumnName="hpwd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="usersModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mailid" ColumnName="mailid" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jobposts">
+      <EntityTypeMapping TypeName="usersModel.Jobpost">
+        <MappingFragment StoreEntitySet="Jobpost">
+          <ScalarProperty Name="date" ColumnName="date" />
+          <ScalarProperty Name="tech" ColumnName="tech" />
+          <ScalarProperty Name="exp" ColumnName="exp" />
+          <ScalarProperty Name="jobdesp" ColumnName="jobdesp" />
+          <ScalarProperty Name="publishby" ColumnName="publishby" />
+          <ScalarProperty Name="jobtitle" ColumnName="jobtitle" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Profiles">
+      <EntityTypeMapping TypeName="usersModel.Profile">
+        <MappingFragment StoreEntitySet="Profile">
+          <ScalarProperty Name="Acheivements" ColumnName="Acheivements" />
+          <ScalarProperty Name="hobbies" ColumnName="hobbies" />
+          <ScalarProperty Name="previouscompany" ColumnName="previouscompany" />
+          <ScalarProperty Name="experience" ColumnName="experience" />
+          <ScalarProperty Name="technologies" ColumnName="technologies" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mailid" ColumnName="mailid" />
+          <ScalarProperty Name="dob" ColumnName="dob" />
+          <ScalarProperty Name="lastname" ColumnName="lastname" />
+          <ScalarProperty Name="firstname" ColumnName="firstname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Jobapplies">
+      <EntityTypeMapping TypeName="usersModel.Jobapply">
+        <MappingFragment StoreEntitySet="Jobapply">
+          <ScalarProperty Name="jobid" ColumnName="jobid" />
+          <ScalarProperty Name="jobtitle" ColumnName="jobtitle" />
+          <ScalarProperty Name="jobname" ColumnName="jobname" />
+          <ScalarProperty Name="workername" ColumnName="workername" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

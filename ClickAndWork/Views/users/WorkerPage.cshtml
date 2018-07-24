@@ -1,0 +1,79 @@
+﻿@model ClickAndWork.ViewModels.WorkerHirer
+@{
+    ViewBag.Title = "WorkerPage";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <h2>
+        Welcome!!
+        @Session["LogedUserID"]
+        @Session["LogedUserFullname"]
+    </h2>
+<div style="margin-left:1075px;font-size:25px">
+    @Html.ActionLink("Logout", "Login")
+</div>
+<div style="font-size:20px">
+    <input type="button" value="create your profile" onclick="location.href='@Url.Action("CreateProfile","users")'" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@Html.ActionLink("Jobs Applied", "Applied", new { user = Model.user.fname })
+</div>
+
+   
+
+<br />
+<br />
+    <table class="table">
+        <tr>
+            <th>
+                @Html.Label("JobTitle")
+            </th>
+            <th>
+                @Html.Label("Published By")
+            </th>
+            <th>
+                @Html.Label("Job Description")
+            </th>
+            <th>
+                @Html.Label("Experience")
+            </th>
+            <th>
+                @Html.Label("Technology")
+            </th>
+            <th>
+                @Html.Label("Date")
+            </th>
+        </tr>
+
+        @foreach (var jobpost in Model.jobposts)
+        {
+            <tr>
+                <th>
+                    @jobpost.jobtitle
+                </th>
+                <th>
+                    @jobpost.publishby
+                </th>
+                <th>
+                    @jobpost.jobdesp
+                </th>
+                <th>
+                    @jobpost.exp
+                </th>
+                <th>
+                    @jobpost.tech
+                </th>
+                <th>
+                    @jobpost.date
+                </th>
+                <th>
+                    @Html.ActionLink("Apply", "Apply", new { title = jobpost.jobtitle, id = Model.user.fname, name = jobpost.publishby})
+                </th>
+            </tr>
+           
+        }
+
+    </table>
+<br/>
+@if (Session["messagee"] != null)
+ {
+    <b style="font-size:30px">@Session["messagee"]</b>
+}

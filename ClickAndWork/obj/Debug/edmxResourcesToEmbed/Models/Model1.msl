@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="usersModelStoreContainer" CdmEntityContainer="usersEntities">
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="usersModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="fname" ColumnName="fname" />
+          <ScalarProperty Name="lname" ColumnName="lname" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="mailid" ColumnName="mailid" />
+          <ScalarProperty Name="pwd" ColumnName="pwd" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hirers">
+      <EntityTypeMapping TypeName="usersModel.hirer">
+        <MappingFragment StoreEntitySet="hirers">
+          <ScalarProperty Name="hpwd" ColumnName="hpwd" />
+          <ScalarProperty Name="hmailid" ColumnName="hmailid" />
+          <ScalarProperty Name="hphone" ColumnName="hphone" />
+          <ScalarProperty Name="hlname" ColumnName="hlname" />
+          <ScalarProperty Name="hfname" ColumnName="hfname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

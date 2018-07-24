@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ClickAndWork.Models.hirer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.hlname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hphone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hmailid)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.hpwd)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.hlname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hphone)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hmailid)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.hpwd)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.hfname }) |
+            @Html.ActionLink("Details", "Details", new { id=item.hfname }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.hfname })
+        </td>
+    </tr>
+}
+
+</table>

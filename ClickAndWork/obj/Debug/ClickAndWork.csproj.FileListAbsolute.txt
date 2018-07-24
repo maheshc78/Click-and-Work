@@ -1,0 +1,251 @@
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\ApplicationInsights.config
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\csc.exe
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\System.Collections.Immutable.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\vbc.exe
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\VBCSCompiler.exe
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\roslyn\VBCSCompiler.exe.config
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\ClickAndWork.dll.config
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\ClickAndWork.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\ClickAndWork.pdb
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Antlr3.Runtime.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\EntityFramework.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\EntityFramework.SqlServer.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Web.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.WindowsServer.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.ApplicationInsights.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Google.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Web.Infrastructure.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Newtonsoft.Json.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Owin.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Helpers.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Mvc.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Optimization.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Razor.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Deployment.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Razor.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\WebGrease.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Web.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AI.WindowsServer.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.ApplicationInsights.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Helpers.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Mvc.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Optimization.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.Razor.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Deployment.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Razor.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Antlr3.Runtime.pdb
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Newtonsoft.Json.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\EntityFramework.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\EntityFramework.SqlServer.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Google.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.csprojResolveAssemblyReference.cache
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.dll
+c:\users\mahesh\documents\visual studio 2015\Projects\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.pdb
+C:\Users\mahesh\Documents\Visual Studio 2015\Projects\ClickAndWork\ClickAndWork\bin\MySql.Data.dll
+C:\Users\mahesh\Documents\Visual Studio 2015\Projects\ClickAndWork\ClickAndWork\bin\MySql.Data.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\ApplicationInsights.config
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\csc.exe
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\vbc.exe
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\VBCSCompiler.exe
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\ClickAndWork.dll.config
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\ClickAndWork.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\ClickAndWork.pdb
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Antlr3.Runtime.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\EntityFramework.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\EntityFramework.SqlServer.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Web.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\MySql.Data.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Newtonsoft.Json.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Owin.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Helpers.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Mvc.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Optimization.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Razor.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Razor.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\WebGrease.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Web.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\MySql.Data.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Helpers.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Mvc.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Optimization.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.Razor.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Razor.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Antlr3.Runtime.pdb
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Newtonsoft.Json.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\EntityFramework.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\EntityFramework.SqlServer.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.csprojResolveAssemblyReference.cache
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.dll
+C:\Users\mahesh\Desktop\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.pdb
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\ApplicationInsights.config
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\csc.exe
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\System.Collections.Immutable.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\System.Reflection.Metadata.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\vbc.exe
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\VBCSCompiler.exe
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\roslyn\VBCSCompiler.exe.config
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\ClickAndWork.dll.config
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\ClickAndWork.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\ClickAndWork.pdb
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Antlr3.Runtime.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\EntityFramework.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\EntityFramework.SqlServer.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Agent.Intercept.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.DependencyCollector.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Web.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.WindowsServer.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.ApplicationInsights.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Core.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Cookies.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Facebook.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Google.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.OAuth.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Twitter.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Web.Infrastructure.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Newtonsoft.Json.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Owin.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Helpers.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Mvc.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Optimization.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Razor.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Deployment.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Razor.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\WebGrease.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.DependencyCollector.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.Web.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AI.WindowsServer.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.ApplicationInsights.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\MySql.Data.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Helpers.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Mvc.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Optimization.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.Razor.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Deployment.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\System.Web.WebPages.Razor.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Antlr3.Runtime.pdb
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Newtonsoft.Json.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\EntityFramework.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\EntityFramework.SqlServer.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Core.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Facebook.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Cookies.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.OAuth.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Google.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.Twitter.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.csprojResolveAssemblyReference.cache
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.dll
+D:\MS\AssZZz!nMtS\ClickAndWork\ClickAndWork\obj\Debug\ClickAndWork.pdb
